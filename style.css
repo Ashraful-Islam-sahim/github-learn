@@ -110,3 +110,58 @@ li.nav-item.nav-list:hover a{
     border: none;
 }
 /* ====== End hero Section ======= */
+
+
+/* service style part start */
+.ser-content img{
+    width:80px;
+}
+.ser-title h1{
+    font-weight: 700;
+}
+.ser-content h5{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.ser-box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 60px 34px;
+    border-radius: 35px;
+    margin-right: 20px;
+}
+.ser-content .img-box{
+    height: 125px;
+}
+/* service style part end */
+
+
+/* responsive media query */
+@media (min-width: 992px) and (max-width: 1199px){
+    .ser-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ser-box{
+        width: 45% !important;
+        /* margin-right:10px; */
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .ser-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ser-box{
+        width: 45% !important;
+        /* margin-right:10px; */
+    }
+}
+@media (min-width: 320px) and (max-width: 768px){
+    .ser-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ser-box{
+        width: 100% !important;
+    }
+}
